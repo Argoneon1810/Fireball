@@ -1,0 +1,34 @@
+module MAGE
+{
+    imports
+    {
+        Base,
+    }
+    item Book_O_Firebolt
+    {
+        DisplayName                 =   Book O' Firebolt,
+        Categories                  =	SmallBlunt,
+        SubCategory                 =	Swinging,
+        DisplayCategory             =   Magical,
+        Type                        =   Weapon,
+        Icon                        =	PLACEHOLDER,
+        WeaponSprite	            =	PLACEHOLDER,
+        MinDamage	                =	0.2,
+        MaxDamage	                =	0.5,
+        BaseSpeed                   =   0.9,
+        MaxRange                    =	0.76,
+        MinAngle                    =	0.72,
+        MinimumSwingTime            =	4,
+        SwingTime                   =	4,
+        SwingAmountBeforeImpact	    =	0.02,
+		SwingAnim                   =	Stab,
+        ConditionMax	            =	5,
+        Weight	                    =	1,
+        ConditionLowerChanceOneIn	=	100,
+        KnockBackOnNoDeath	        =	FALSE,
+        SplatBloodOnNoDeath         =	FALSE,
+        PushBackMod                 =	0.3,
+        KnockdownMod	            =	2,
+        AttachmentType              =   Holster,
+    }
+}

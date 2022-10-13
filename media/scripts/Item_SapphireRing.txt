@@ -1,0 +1,67 @@
+module MAGE
+{
+    imports
+    {
+        Base,
+    }
+    item Ring_Left_MiddleFinger_SilverSapphire
+    {
+        DisplayCategory = Magical,
+        Type = Clothing,
+        DisplayName = Sapphire on a Silver Ring,
+        ClothingItem = Ring_Left_MiddleFinger_SilverSapphire,
+        BodyLocation = Left_MiddleFinger,
+        Icon = Ring_Silver,
+        Weight = 0.1,
+        ClothingItemExtra = Ring_Left_RingFinger_SilverSapphire;Ring_Right_MiddleFinger_SilverSapphire;Ring_Right_RingFinger_SilverSapphire,
+        ClothingItemExtraOption = LeftRingFinger;RightMiddleFinger;RightRingFinger,
+        clothingExtraSubmenu = LeftMiddleFinger,
+        Cosmetic = TRUE,
+        WorldStaticModel = Ring_Silver_Ground,
+    }
+    item Ring_Left_RingFinger_SilverSapphire
+    {
+        DisplayCategory = Magical,
+        Type = Clothing,
+        DisplayName = Sapphire on a Silver Ring,
+        ClothingItem = Ring_Left_RingFinger_SilverSapphire,
+        BodyLocation = Left_RingFinger,
+        Icon = Ring_Silver,
+        Weight = 0.1,
+        ClothingItemExtra = Ring_Left_MiddleFinger_SilverSapphire;Ring_Right_MiddleFinger_SilverSapphire;Ring_Right_RingFinger_SilverSapphire,
+        ClothingItemExtraOption = LeftMiddleFinger;RightMiddleFinger;RightRingFinger,
+        clothingExtraSubmenu = LeftRingFinger,
+        Cosmetic = TRUE,
+        WorldStaticModel = Ring_Silver_Ground,
+    }
+    item Ring_Right_MiddleFinger_SilverSapphire
+    {
+        DisplayCategory = Magical,
+        Type = Clothing,
+        DisplayName = Sapphire on a Silver Ring,
+        ClothingItem = Ring_Right_MiddleFinger_SilverSapphire,
+        BodyLocation = Right_MiddleFinger,
+        Icon = Ring_Silver,
+        Weight = 0.1,
+        ClothingItemExtra = Ring_Left_RingFinger_SilverSapphire;Ring_Left_MiddleFinger_SilverSapphire;Ring_Right_RingFinger_SilverSapphire,
+        ClothingItemExtraOption = LeftRingFinger;LeftMiddleFinger;RightRingFinger,
+        clothingExtraSubmenu = RightMiddleFinger,
+        Cosmetic = TRUE,
+        WorldStaticModel = Ring_Silver_Ground,
+    }
+    item Ring_Right_RingFinger_SilverSapphire
+    {
+        DisplayCategory = Magical,
+        Type = Clothing,
+        DisplayName = Sapphire on a Silver Ring,
+        ClothingItem = Ring_Right_RingFinger_SilverSapphire,
+        BodyLocation = Right_RingFinger,
+        Icon = Ring_Silver,
+        Weight = 0.1,
+        ClothingItemExtra = Ring_Left_RingFinger_SilverSapphire;Ring_Left_MiddleFinger_SilverSapphire;Ring_Right_MiddleFinger_SilverSapphire,
+        ClothingItemExtraOption = LeftRingFinger;LeftMiddleFinger;RightMiddleFinger,
+        clothingExtraSubmenu = RightRingFinger,
+        Cosmetic = TRUE,
+        WorldStaticModel = Ring_Silver_Ground,
+    }
+}
